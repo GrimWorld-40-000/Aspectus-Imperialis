@@ -49,13 +49,13 @@
 		<label>Stair (4x3)</label>
 		<description>WIP.</description>
 		<graphicData>
-			<texPath>Furniture/Stair/brickstair</texPath>
+			<texPath>Furniture/Stair/A</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(7.3,7.3)</drawSize>
+			<drawSize>(5.5)</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-		<size>(3,4)</size>
+		<size>(4,2)</size>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<uiIconScale>1</uiIconScale>
 		<statBases>
@@ -74,7 +74,7 @@
 		<rotatable>true</rotatable>
 		<building>
 			<blueprintGraphicData>
-				<texPath>Furniture/Stair/brickstair</texPath>
+				<texPath>Furniture/Stair/A</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
 				<drawSize>(4)</drawSize>
 				<drawOffset>(0,0,-0.2)</drawOffset>
