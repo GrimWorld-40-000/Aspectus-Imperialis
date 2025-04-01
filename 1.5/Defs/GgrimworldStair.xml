@@ -1,0 +1,89 @@
+<Defs>
+
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>GW_Stair_A</defName>
+		<label>Stair (2x2)</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>Furniture/Stair/brickstair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4)</drawSize>
+			<drawOffset>(0,0,-0.2)</drawOffset>
+			<drawOffsetNorth>(0,0,0.1)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,0.1)</drawOffsetSouth>
+		</graphicData>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(2,2)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<rotatable>true</rotatable>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Furniture/Stair/brickstair</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(4)</drawSize>
+				<drawOffset>(0,0,-0.2)</drawOffset>
+				<drawOffsetNorth>(0,0,0.1)</drawOffsetNorth>
+			</blueprintGraphicData>
+		</building>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>GW_Stair_B</defName>
+		<label>Stair (4x3)</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>Furniture/Stair/brickstair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7.3,7.3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(3,4)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<uiIconScale>1</uiIconScale>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<rotatable>true</rotatable>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Furniture/Stair/brickstair</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(4)</drawSize>
+				<drawOffset>(0,0,-0.2)</drawOffset>
+				<drawOffsetNorth>(0,0,0.1)</drawOffsetNorth>
+			</blueprintGraphicData>
+		</building>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>
