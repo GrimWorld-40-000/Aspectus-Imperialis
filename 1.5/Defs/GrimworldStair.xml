@@ -31,6 +31,7 @@
 		</stuffCategories>
 		<rotatable>true</rotatable>
 		<building>
+			<isEdifice>false</isEdifice>
 			<blueprintGraphicData>
 				<texPath>Furniture/Stair/brickstair</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
@@ -55,7 +56,7 @@
 			<drawOffset>(0,0,0)</drawOffset>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-		<size>(4,2)</size>
+		<size>(2,4)</size>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<uiIconScale>1</uiIconScale>
 		<statBases>
@@ -73,6 +74,7 @@
 		</stuffCategories>
 		<rotatable>true</rotatable>
 		<building>
+			<isEdifice>false</isEdifice>
 			<blueprintGraphicData>
 				<texPath>Furniture/Stair/A</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
