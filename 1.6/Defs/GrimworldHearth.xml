@@ -59,9 +59,16 @@
 				<heatPerSecond>32</heatPerSecond>
 				<heatPushMaxTemperature>21</heatPushMaxTemperature>
 			</li>
-			<li Class="CompProperties_FireOverlaySouth">
+			<!-- <li Class="CompProperties_FireOverlaySouth"> -->
+				<!-- <fireSize>0.8</fireSize> -->
+				<!-- <offset>(0,0,0.1)</offset> -->
+			<!-- </li> -->
+			<li Class="CompProperties_FireOverlay">
 				<fireSize>0.8</fireSize>
 				<offset>(0,0,0.1)</offset>
+				<offsetNorth>(0,-1,0)</offsetNorth>
+				<offsetEast>(0.3,-0.1,0)</offsetEast>
+				<offsetWest>(-0.3,-0.1,0)</offsetWest>
 			</li>
 		</comps>
 	</ThingDef>
